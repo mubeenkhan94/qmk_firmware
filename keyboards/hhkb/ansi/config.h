@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 8
 #define MATRIX_COLS 8
 
-#define TAPPING_TERM    200
+#define TAPPING_TERM    300
 
 /* number of backlight levels */
 #define BACKLIGHT_LEVELS 3
@@ -97,3 +97,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_ONESHOT
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+
+/* help with Mod-Tap */
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD

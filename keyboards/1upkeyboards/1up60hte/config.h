@@ -63,3 +63,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 #endif
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+
+/* help with Mod-Tap */
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
