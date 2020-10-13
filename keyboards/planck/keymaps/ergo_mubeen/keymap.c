@@ -78,11 +78,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_COLEMAK] = KC_KEYMAP( \
 
   //,-----------------------------------------------------------------------------------.
-        TAB,     Q,     W,     F,     P,     B,     J,     L,     U,     Y,  SCLN,  BSPC,\
+          Q,     W,     F,     P,     B,   TAB,  BSPC,     J,     L,     U,     Y,  SCLN,\
   //|------+------+------+------+------+------+------+------+------+------+------+------|
-        ESC, ALGUI, RLALT, SLCTL, TLSFT,  GLWR,  MRSE, NRSFT, ERCTL, IRALT, ORGUI,  QUOT,\
+      ALGUI, RLALT, SLCTL, TLSFT,  GLWR,   ESC,  QUOT,  MRSE, NRSFT, ERCTL, IRALT, ORGUI,\
   //|------+------+------+------+------+------+------+------+------+------+------+------|
-       LSFT,     Z,     X,     C,     D,     V,     K,     H,  COMM,   DOT,  SLSH,   ENT,\
+          Z,     X,     C,     D,     V,  LSFT,   ENT,     K,     H,  COMM,   DOT,  SLSH,\
   //|------+------+------+------+------+------+------+------+------+------+------+------|
        PSCR,  LCTL,  LALT,  LGUI,  BKNV,  TBFN, ENSYM, SPCNM,  LEFT,  DOWN,    UP,  RGHT\
   //|------+------+------+------+------+------+------+------+------+------+------+------'
